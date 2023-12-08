@@ -1,0 +1,16 @@
+{
+  "name": "af-softlab/binaroom-door",
+  "description": "",
+  "type": "library",
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "meyfa/php-svg": "^0.11.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AfSoftlab\\Binaroom\\Door\\": "src"
+    }
+  }
+}
